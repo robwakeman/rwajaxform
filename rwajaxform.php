@@ -35,7 +35,7 @@ class RW_Ajax_Form {
 	 */
 	function rw_enqueue_scripts_styles() {
 
-		// only load js and css if on Ajax form page 
+		// only load js and css if on Ajax form page - hardcoded to work with my own template with Bootstrap form
 	  if ( is_page('ajax-form') ):
 
 			wp_enqueue_style( 'rwajaxform', plugin_dir_url( __FILE__ ) . 'css/rw-ajax-form.css' );
