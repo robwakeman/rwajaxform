@@ -3,7 +3,7 @@
 Plugin Name: RW Ajax Form
 Description: Test Ajax form. Tested with BS4 form markup and validation.
 Author: Rob Wakeman
-Author URI: http://wwww.robwakeman.com
+Author URI: https://wwww.robwakeman.com
 Version: 1.0
 License: GPL2
 Text Domain: rwajaxform
