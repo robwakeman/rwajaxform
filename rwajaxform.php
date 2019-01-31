@@ -69,7 +69,7 @@ class RW_Ajax_Form {
 		$email = sanitize_email($data["email"]);
 		$message = sanitize_text_field($data["message"]);
 
-		$successConfirmation = '<div class="alert alert-success" role="alert">';
+		$successConfirmation = '<div>';
 		$successConfirmation .= '<p>Your enquiry details are:</p>';
 		$successConfirmation .= "<ul>";
 		$successConfirmation .= "<li class=\"list-unstyled mb-2\"><strong>Name:</strong> $name </li>";
